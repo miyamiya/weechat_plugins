@@ -1,0 +1,2 @@
+weechat_plugins
+===============
