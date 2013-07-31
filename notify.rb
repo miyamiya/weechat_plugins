@@ -12,8 +12,6 @@ def weechat_init
   Weechat.register("send_notify", "miyamiya <rai.caver@gmail.com>",
     "0.0.1", "GPL3", "Send 'notify' if signal is received.",
     "", "")
-
-  setup
   # Setup hook 
   Weechat.hook_signal("weechat_highlight", "do_event", "")
   Weechat.hook_signal("weechat_pv", "do_event", "")
